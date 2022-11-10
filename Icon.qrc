@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Pics/1.PNG</file>
+        <file>Pics/2.PNG</file>
+        <file>Pics/3.PNG</file>
+        <file>Pics/4.PNG</file>
+        <file>Pics/5.PNG</file>
+        <file>Pics/6.PNG</file>
+        <file>Pics/7.PNG</file>
+        <file>Pics/8.PNG</file>
+        <file>Pics/9.PNG</file>
+        <file>Pics/10.PNG</file>
+        <file>Pics/11.PNG</file>
+    </qresource>
+    <qresource prefix="/perfrix2" lang="perstion"/>
+</RCC>

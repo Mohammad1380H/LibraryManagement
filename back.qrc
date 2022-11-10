@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Pics/sharon-mccutcheon-eMP4sYPJ9x0-unsplash.jpg</file>
+        <file>Pics/susan-q-yin-2JIvboGLeho-unsplash.jpg</file>
+    </qresource>
+</RCC>

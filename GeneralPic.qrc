@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>GPic/1.PNG</file>
+        <file>GPic/2.PNG</file>
+        <file>GPic/3.PNG</file>
+        <file>GPic/4.PNG</file>
+        <file>GPic/5.PNG</file>
+        <file>GPic/6.PNG</file>
+        <file>GPic/7.PNG</file>
+        <file>GPic/8.PNG</file>
+        <file>GPic/9.PNG</file>
+        <file>GPic/10.PNG</file>
+        <file>GPic/11.PNG</file>
+        <file>GPic/Martz90-Circle-Books.ico</file>
+        <file>GPic/pic1.JPG</file>
+        <file>GPic/pic2.JPG</file>
+        <file>GPic/pic3.JPG</file>
+        <file>GPic/pic4.JPG</file>
+        <file>GPic/pic5.JPG</file>
+        <file>GPic/pic6.JPG</file>
+        <file>GPic/pic7.JPG</file>
+        <file>GPic/pic8.JPG</file>
+        <file>GPic/pic9.JPG</file>
+        <file>GPic/pic10.JPG</file>
+        <file>GPic/sharon-mccutcheon-eMP4sYPJ9x0-unsplash (1).jpg</file>
+        <file>GPic/susan-q-yin-2JIvboGLeho-unsplash.jpg</file>
+    </qresource>
+</RCC>

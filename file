@@ -1,0 +1,64 @@
+QString pre=
+        "SELECT [main].[Publishers].[publishers],"
+               "[main].[Trans].[fname],"
+               "[main].[Trans].[lname],"
+               "[main].[Wrt].[fname] AS [fname1],"
+               "[main].[Wrt].[lname] AS [lname1],"
+               "[main].[Books].[counter]"
+        "FROM   [main].[Books]"
+               "INNER JOIN [main].[GetGive] ON [main].[Books].[Book_Id] = [main].[GetGive].[BookId]"
+               "INNER JOIN [main].[Publishers] ON [main].[Publishers].[pubcode] = [main].[Books].[pub_Id]"
+               "INNER JOIN [main].[Trans] ON [main].[Trans].[Translater_Id] = [main].[Books].[translater_Id]"
+               "INNER JOIN [main].[Users] ON [main].[Users].[Code] = [main].[GetGive].[UserId]"
+               "INNER JOIN [main].[Wrt] ON [main].[Wrt].[Writer_Id] = [main].[Books].[writer_Id]"
+
+----------------------------
+"where Book_Id like '%"+Code_book+"%' and Bookname like '%"+name_book+"%'   ;";
+
+
+"SELECT [main].[Publishers].[publishers],"
+       "[main].[Trans].[fname],"
+       "[main].[Trans].[lname],"
+       "[main].[Wrt].[fname] AS [fname1],"
+       "[main].[Wrt].[lname] AS [lname1],"
+"FROM   [main].[Books]"
+       "LEFT OUTER JOIN  [main].[GetGive] ON [main].[Books].[Book_Id] = [main].[GetGive].[BookId]"
+       "LEFT OUTER JOIN  [main].[Publishers] ON [main].[Publishers].[pubcode] = [main].[Books].[pub_Id]"
+       "LEFT OUTER JOIN  [main].[Trans] ON [main].[Trans].[Translater_Id] = [main].[Books].[translater_Id]"
+       "LEFT OUTER JOIN  [main].[Users] ON [main].[Users].[Code] = [main].[GetGive].[UserId]"
+       "LEFT OUTER JOIN [main].[Wrt] ON [main].[Wrt].[Writer_Id] = [main].[Books].[writer_Id]"
+
+
+
+
+
+
+
+
+//old
+
+"SELECT [main].[Publishers].[publishers],"
+       "[main].[Trans].[fname],"
+       "[main].[Trans].[lname],"
+       "[main].[Wrt].[fname] AS [fname1],"
+       "[main].[Wrt].[lname] AS [lname1]"
+"FROM   [main].[Books]"
+       "LEFT OUTER JOIN [main].[GetGive] ON [main].[Books].[Book_Id] = [main].[GetGive].[BookId]"
+       "LEFT OUTER JOIN [main].[Publishers] ON [main].[Publishers].[pubcode] = [main].[Books].[pub_Id]"
+       "LEFT OUTER JOIN [main].[Trans] ON [main].[Trans].[Translater_Id] = [main].[Books].[translater_Id]"
+       "LEFT OUTER JOIN [main].[Users] ON [main].[Users].[Code] = [main].[GetGive].[UserId]"
+       "LEFT OUTER JOIN [main].[Wrt] ON [main].[Wrt].[Writer_Id] = [main].[Books].[writer_Id]
+
+//new
+
+SELECT [main].[Publishers].[publishers],
+       [main].[Trans].[fname],
+       [main].[Trans].[lname],
+       [main].[Wrt].[fname] AS [fname1],
+       [main].[Wrt].[lname] AS [lname1]
+FROM   [main].[Books]
+       INNER JOIN [main].[GetGive] ON [main].[Books].[Book_Id] = [main].[GetGive].[BookId]
+       INNER JOIN [main].[Publishers] ON [main].[Publishers].[pubcode] = [main].[Books].[pub_Id]
+       INNER JOIN [main].[Trans] ON [main].[Trans].[Translater_Id] = [main].[Books].[translater_Id]
+       INNER JOIN [main].[Users] ON [main].[Users].[Code] = [main].[GetGive].[UserId]
+       INNER JOIN [main].[Wrt] ON [main].[Wrt].[Writer_Id] = [main].[Books].[writer_Id];

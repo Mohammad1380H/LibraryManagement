@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>PPic/annie-spratt-gl7joOaABlI-unsplash.jpg</file>
+        <file>PPic/ergita-sela-J50ak9aa7zE-unsplash.jpg</file>
+        <file>PPic/mediamodifier-Guo9gNFpwgw-unsplash.jpg</file>
+    </qresource>
+</RCC>

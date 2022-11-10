@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QWidget" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>701</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>701</width>
+    <height>422</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>701</width>
+    <height>422</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>B Nazanin</family>
+    <pointsize>14</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>راهنمای نرم افزار</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/new/prefix1/Pics/Martz90-Circle-Books.ico</normaloff>:/new/prefix1/Pics/Martz90-Circle-Books.ico</iconset>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-160</x>
+     <y>10</y>
+     <width>1061</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::Box</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Plain</enum>
+   </property>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>0</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>B Yekan</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:400; color:#000000;&quot;&gt;راهنمای نرم افزار&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>50</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>به نام ایزد منان</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>661</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+   <property name="undoRedoEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'B Nazanin'; font-size:14pt; font-weight:600; font-style:normal;&quot;&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;!کاربر گرامی ، سلام&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;این نرم افزار ساده ، برای مدیریت کتابخانه های مختلف ، تدوین و طراحی شده است.برای استفاده ی هر چه بهتر از این نرم افزار ، به نکات زیر توجه کنید:&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;1- برای ثبت،ویرایش و یا حذف کتاب،به صفحه‌ی &amp;quot;کتابخانه‌ی من&amp;quot; مراجعه نمایید؛همچنین در این صفحه، امکان جستجوی کتاب بر اساس کد و نام کتاب، وجود دارد.&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#ff0606;&quot;&gt;توجه : حذف کتاب،تنها در صورتی انجام می شود که کتاب مورد نظر،نزد کسی به امانت نباشد!&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;2-برای ثبت،ویرایش و یا حذف کاربر، به صفحه‌ی &amp;quot;اعضای من&amp;quot; مراجعه کنید؛همچنین در این صفحه، امکان جستجوی کاربر بر اساس کد اشتراک و نام و نام خانوادگی کاربر ، وجود دارد.&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#f10000;&quot;&gt;توجه1: حذف کاربر تنها در صورتی انجام می شود که کاربر مورد نظر، در لحظه ی حذف،هیچ کتابی به امانت نداشته باشد!&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#f10000;&quot;&gt;توجه2: کد اشتراک کاربر، حتما بایستی 10 رقمی بدون حرف باشد، که این موضوع توسط خود نرم افزار کنترل می گردد.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#f10000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;3- در صفحه ‌ی &amp;quot;امانت و برگشت&amp;quot; می توانید کتاب(های) کاربر مورد نظر را برگردانده و یا کتاب(ها)یی را به او امانت دهید.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;3-1)در قسمت بالای صفحه، امکان یافتن کاربر از طریق کد اشتراک،وجود دارد.در صورتی که کاربر، کد اشتراک خود را فراموش کرده بود،با زدن دکمه‌ی &amp;quot;ورود به اعضای من&amp;quot; ، می توانید از روی اسم و یا سایر مشخصات، کد اشتراک کاربر مورد نظر را بیابید.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/prefix1/GPic/pic3.JPG&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;3-2)بیشترین تعداد کتب مجاز برای هر شخص را می توانید به صورت دستی تنظیم کنید . این عدد در حالت پیش‌فرض ، 4، لحاظ شده است.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;3-3)با داشتن کد کتاب می توانید کتاب را یافته و آن را به کاربر امانت دهید . در صورت مخدوش شدن کد روی کتاب، می توانید با کلیک روی دکمه‌ی &amp;quot;ورود به کتابخانه ی من&amp;quot; کد کتاب را از روی سایر مشخصات آن بیابید.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/prefix1/GPic/pic5.JPG&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;3-4) در صورتی که کتاب قابل امانت نباشد ، در قسمت مشخصات آن عبارت&amp;quot;غیر قابل امانت!&amp;quot; ظاهر می شود و شما می توانید با زدن دکمه ی &amp;quot;استعلام&amp;quot; کاربری که این کتاب را به امانت برده بیابید.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;3-5)کتبی که کاربر به امانت برده است در فهرست سمت راست صفحه قابل مشاهده است . با کلیک روی هر کدام از کتاب ها، مهلت باقیمانده تا تحویل کتاب، نمایش داده می شود.امکان برگشت کتاب و تمدید کتاب نیز در همین قسمت موجود است.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/prefix1/GPic/pic4.JPG&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;4-در بخش استعلام، می توانید از موارد زیر استعلام بگیرید:&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;4-1)افرادی که در تحویل کتاب،تاخیر داشته اند، در لیست سمت راست قابل مشاهده اند.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/prefix1/GPic/pic6.JPG&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;4-2)با زدن کد کتاب در نوار بالا سمت چپ، اطلاعات شخصی که این کتاب را به امانت برده است ، نمایش داده می شود.&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/prefix1/GPic/pic7.JPG&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;4-3) کتاب خوانان و کتابهای برتر را نیز می توانید از دو لیست پایین سمت چپ  ، مشاهده کنید .&lt;/span&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/prefix1/GPic/pic8.JPG&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;center&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/prefix1/GPic/pic9.JPG&quot; /&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; dir='rtl' style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; color:#000000;&quot;&gt;5- ثبت سایر اطلاعات: با زدن این دکمه در صفحه ی اصلی، می توانید ناشر،نویسنده و مترجم جدید را به لیست خود اضافه کنید تا در ثبت کتاب ، بتوانید از آنها استفاده کنید.&lt;/span&gt;&lt;/p&gt;
+&lt;p dir='rtl' style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; color:#000000;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

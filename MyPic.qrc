@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Pics/Martz90-Circle-Books.ico</file>
+        <file>Pics/pic1.JPG</file>
+        <file>Pics/pic2.JPG</file>
+        <file>Pics/pic3.JPG</file>
+        <file>Pics/pic4.JPG</file>
+        <file>Pics/pic5.JPG</file>
+        <file>Pics/pic6.JPG</file>
+        <file>Pics/pic7.JPG</file>
+        <file>Pics/pic8.JPG</file>
+        <file>Pics/pic9.JPG</file>
+        <file>Pics/pic10.JPG</file>
+    </qresource>
+</RCC>
